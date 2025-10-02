@@ -3,7 +3,7 @@
 function checkAnswer() {
 
     // Identifying the correct answer
-    let correctAnswer = "4";
+    const correctAnswer = "4";
 
     // Retreive the user's selected answer
     const selectedRadioButton = document.querySelector('input[name="quiz"]:checked');
